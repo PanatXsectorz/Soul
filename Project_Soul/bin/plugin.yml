@@ -1,0 +1,7 @@
+name: Souls
+version: 1.0
+main: net.xsapi.panat.main.XS_soul_core
+author: Panat Kathinthong
+commands:
+  souls:
+    description: see available command

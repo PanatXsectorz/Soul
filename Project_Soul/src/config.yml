@@ -1,0 +1,10 @@
+version: 1.0
+
+settings:
+  recover: 1 #คืนวิญญาญทุกๆ x วินาที
+  deaths: 1 #เมื่อตายจะลดวิญญาญเท่านี้
+  time: 600 #หน่วยวินาทีในการคืนค่าวิญญาญ
+  default_max_souls: 20 #Souls สูงสุดของผู้เล่นเริ่มต้น
+  show_deaths_messages: true
+  show_deaths_warning: true
+  show_recover_messages: true

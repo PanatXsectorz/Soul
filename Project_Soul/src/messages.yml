@@ -1,0 +1,19 @@
+version: 1.0
+
+commands:
+  no_permission: "&cคุณไม่มีสิทธิในการใช้คำสั่งนี้ค่ะ!"
+  player_err: "&cผู้เล่นดังกล่าวไม่ได้ออนไลน์ตอนนี้ค่ะ!!"
+  not_a_number: "&cไม่ใช่ตัวเลขค่ะกรุณาลองใหม่อีกครั้งค่ะ!!"
+  negative_number: "&cจำนวนที่ใส่ต้องเป็นจำนวนเต็มบวกเท่านั้นค่ะ!!"
+  reload_command: "&aได้ตั้งค่าระบบวิญญาญใหม่เเล้วค่ะ!"
+  souls_check: "&aคุณมียอดวิญญาญคงเหลือ: &e%amount%&7/&e%max%"
+  souls_check_other: "&aยอดวิญญาญของผู้เล่น &e%player% &aคงเหลือ: &6%amount%&7/&e%max%"
+  souls_set_complete: "&aได้ทำการตั้งค่าวิญญาญของผู้เล่น &c%player% &aเป็นค่า &6%amount%"
+  souls_add_complete: "&aได้ทำการเพิ่มค่าวิญญาญของผู้เล่น &c%player% &aเป็นจำนวน &6%amount%"
+  souls_remove_complete: "&aได้ทำการลดค่าวิญญาญของผู้เล่น &c%player% &aเป็นจำนวน &6%amount%"
+  souls_setmax_complete: "&aได้ทำการตั้งค่าวิญญาญสูงสุดของผู้เล่น &c%player% &aเป็นจำนวน &6%amount%"
+
+messages:
+  recover: "&aเหล่าปีศาจคืนวิญญาญให้ผู้เล่นทุกท่านเเล้วเป็นจำนวน &e%amount%"
+  deaths: "&cคุณเสียชีวิตเเล้วเสียค่าวิญญาญไป &e%amount% &cยอดคงเหลือ &a%left%"
+  warn_deaths: "&cวิญญาญของคุณอยู่ต่ำกว่าเกณฑ์เเล้วค่ะไอเทมจะตกบางส่วน!"
